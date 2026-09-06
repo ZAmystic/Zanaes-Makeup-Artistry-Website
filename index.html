@@ -188,9 +188,9 @@
   .about-portrait{
     aspect-ratio: 4/5;
     border-radius: 4px;
-    background:
-      linear-gradient(160deg, rgba(162,71,89,0.18), rgba(156,124,62,0.14)),
-      linear-gradient(0deg, var(--plum-light), var(--plum-light));
+    background-image: url('./assets/imgs/portrait.png');
+    background-size: cover;
+    background-position: center;
     position: relative;
     overflow:hidden;
   }
@@ -248,10 +248,10 @@
     color: var(--ivory); font-size: 0.92rem; font-weight: 500;
     text-shadow: 0 2px 12px rgba(0,0,0,0.35);
   }
-  .look-1{ background: linear-gradient(150deg, #E7C9BE, #B5654A 55%, #6B2E28); }
-  .look-2{ background: linear-gradient(150deg, #E9C6D1, #A24759 55%, #4A1D28); }
-  .look-3{ background: linear-gradient(150deg, #EFE0C0, #9C7C3E 55%, #4B3A1D); }
-  .look-4{ background: linear-gradient(150deg, #D9DCC9, #6E7A55 55%, #2E3520); }
+  .look-1{ background-image: url('./assets/imgs/image1.png'); background-size: cover; background-position: center; }
+  .look-2{ background-image: url('./assets/imgs/image2.png'); background-size: cover; background-position: center; }
+  .look-3{ background-image: url('./assets/imgs/image3.png'); background-size: cover; background-position: center; }
+  .look-4{ background-image: url('./assets/imgs/image4.png'); background-size: cover; background-position: center; }
   .portfolio-note{ margin-top: 26px; font-size: 0.85rem; color: rgba(36,26,29,0.55); }
 
   /* ---------- TESTIMONIALS ---------- */
@@ -329,7 +329,7 @@
 
 <header class="site">
   <nav class="wrap nav">
-    <a href="#top" class="mark">Amara Voss</a>
+    <a href="#top" class="mark">Zanae Jooste</a>
     <ul>
       <li><a class="navlink" href="#about">About</a></li>
       <li><a class="navlink" href="#services">Services</a></li>
@@ -352,7 +352,7 @@
 <section class="hero" id="top">
   <div class="wrap">
     <div>
-      <p class="eyebrow">Bridal & editorial makeup artist — based in Pretoria, working across Gauteng</p>
+      <p class="eyebrow">Makeup artist — based in Alberton, working across South Africa</p>
       <h1>Makeup that<br>photographs<br>like skin.</h1>
       <p class="lede">Twelve years behind the brush, specialising in bridal glow, editorial colour work, and skin that still looks like skin by the end of the night.</p>
       <div class="cta-row">
@@ -367,26 +367,21 @@
     </div>
   </div>
   <div class="wrap hero-specialties">
-    <span>Bridal parties</span>
-    <span>Editorial & photoshoot</span>
-    <span>Special occasion</span>
-    <span>1:1 makeup lessons</span>
   </div>
 </section>
 
 <section class="about section" id="about">
   <div class="wrap">
     <div class="about-portrait">
-      <span>Amara, in the studio</span>
+      <span>Zanae, in the studio</span>
     </div>
     <div class="about-text">
-      <h2 style="font-style: normal; margin-bottom: 22px;">Hi, I'm Amara.</h2>
+      <h2 style="font-style: normal; margin-bottom: 22px;">Hi, I'm Zanae.</h2>
       <p>I trained in Cape Town and spent four years assisting on fashion sets before starting my own studio. These days most of my time goes to brides and to editorial work for local photographers — two jobs that ask for opposite skills, and I like switching between them.</p>
       <p>My approach stays the same either way: match the makeup to the skin and the light it'll be seen in, not to a trend. That's why the bride I did makeup for in 2019 still recognises herself in her photos.</p>
       <div class="about-stats">
-        <div><strong>180+</strong><span>Weddings done</span></div>
-        <div><strong>12</strong><span>Years experience</span></div>
-        <div><strong>9</strong><span>Magazines featured in</span></div>
+        <div><strong>100+</strong><span>Weddings done</span></div>
+        <div><strong>5+</strong><span>Years experience</span></div>
       </div>
     </div>
   </div>
@@ -439,16 +434,6 @@
           <span class="duration">~60 minutes</span>
         </div>
       </div>
-      <div class="menu-item">
-        <div class="left">
-          <h3>Makeup lessons</h3>
-          <p>A one-on-one session on your own face, working with products you already own where possible.</p>
-        </div>
-        <div class="meta">
-          <span class="price">From R950</span>
-          <span class="duration">90 minutes</span>
-        </div>
-      </div>
     </div>
   </div>
 </section>
@@ -457,15 +442,15 @@
   <div class="wrap">
     <div class="section-head">
       <h2>Recent looks</h2>
-      <p>A small sample — the full portfolio is on Instagram, linked below.</p>
+      <p>A small sample — <br>the full portfolio is on Instagram, linked below.</p>
     </div>
     <div class="look-grid">
-      <div class="look-card look-1"><span>Bridal glow</span></div>
-      <div class="look-card look-2"><span>Sunset smoke</span></div>
-      <div class="look-card look-3"><span>Editorial gold</span></div>
-      <div class="look-card look-4"><span>Natural radiance</span></div>
+      <div class="look-card look-1"></div>
+      <div class="look-card look-2"></div>
+      <div class="look-card look-3"></div>
+      <div class="look-card look-4"></div>
     </div>
-    <p class="portfolio-note">Placeholder colour panels — swap these for real portfolio photography before publishing.</p>
+    <p class="portfolio-note">Everyone is beautiful, lets show the world your beauty!</p>
   </div>
 </section>
 
@@ -476,7 +461,7 @@
     </div>
     <div class="quote-row">
       <blockquote>
-        <p>"Amara did my makeup for my wedding and it lasted through six hours of dancing and a lot of crying. Still looked like me, just better."</p>
+        <p>"Zanae did my makeup for my wedding and it lasted through six hours of dancing and a lot of crying. Still looked like me, just better."</p>
         <cite>— Naledi M., bride</cite>
       </blockquote>
       <blockquote>
@@ -490,12 +475,12 @@
 <section class="booking section" id="booking">
   <div class="wrap">
     <div class="booking-info">
-      <h2 style="font-style: italic; font-size: clamp(2rem, 4vw, 2.7rem); margin-bottom: 18px;">Let's talk about your date</h2>
+      <h2 style="font-style: italic; font-size: clamp(2rem, 4vw, 2.7rem); margin-bottom: 18px;">Let's plan your look</h2>
       <p>Fill in the form and I'll reply within two working days with availability and next steps. Wedding dates get booked 6–12 months out, so reach out early.</p>
       <div class="booking-detail">
-        <div><label>Studio</label><strong>Pretoria, Gauteng — also travels for weddings</strong></div>
-        <div><label>Email</label><strong>hello@amaravoss.co.za</strong></div>
-        <div><label>Instagram</label><strong>@amaravossmakeup</strong></div>
+        <div><label>Studio</label><strong>Alberton, Gauteng — also travels for weddings</strong></div>
+        <div><label>Email</label><strong>zanae@gmail.com</strong></div>
+        <div><label>Instagram</label><strong>@zanae.makeup.artistry</strong></div>
       </div>
     </div>
     <form class="book-form" onsubmit="return false;">
@@ -529,7 +514,7 @@
         <label for="message">Tell me about the day</label>
         <textarea id="message" placeholder="Location, number of people, timing, inspiration photos…"></textarea>
       </div>
-      <p class="form-note">This form is a static demo — connect it to an email or booking service to go live.</p>
+      <p class="form-note"></p>
       <button class="submit-btn" type="submit">Send enquiry</button>
     </form>
   </div>
@@ -537,7 +522,7 @@
 
 <footer>
   <div class="wrap">
-    <span>© 2026 Amara Voss Makeup</span>
+    <span>© 2026 Zanae Jooste</span>
     <span><a href="#top">Back to top</a></span>
   </div>
 </footer>
